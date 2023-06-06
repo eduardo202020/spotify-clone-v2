@@ -12,7 +12,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
 import Button from "./Button";
-import useAuthModal from "@/hooks/usAuthModal";
+import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";
 import { toast } from "react-hot-toast";
 
