@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 // import AuthModal from "@/components/AuthModal";
 // import SubscribeModal from "@/components/SubscribeModal";
-// import UploadModal from "@/components/UploadModal";
+import UploadModal from "@/components/UploadModal";
 import { ProductWithPrice } from "@/types";
 import Modal from "@/components/Modal";
 import AuthModal from "@/components/AuthModal";
@@ -28,17 +28,9 @@ const ModalProvider: React.FC<ModalProviderProps> = () => {
   return (
     <>
       <AuthModal />
-      {/* <Modal
-        title="Test Modal"
-        description="test description"
-        isOpen
-        onChange={() => {}}
-      >
-        Test Children
-      </Modal> */}
-      {/* <AuthModal /> */}
+
       {/* <SubscribeModal products={products} /> */}
-      {/* <UploadModal /> */}
+      <UploadModal />
     </>
   );
 };
